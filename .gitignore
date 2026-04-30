@@ -10,3 +10,6 @@ application/logs/*
 vendor/
 node_modules/
 
+/uploads/products/
+/uploads/products/*
+/uploads/products/.gitkeep

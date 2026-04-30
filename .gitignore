@@ -10,4 +10,3 @@ application/logs/*
 vendor/
 node_modules/
 
-application/config/database.php

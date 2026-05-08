@@ -69,6 +69,7 @@ $dotenv->load();
  */
 	// define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 	define('ENVIRONMENT', $_ENV['CI_ENV'] ?? 'development');
+	error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE & ~E_WARNING);
 
 /*
  *---------------------------------------------------------------

@@ -45,6 +45,8 @@ class Auth extends CI_Controller {
     }
 
     public function login() {
+        echo 'test ci/cd';
+        exit;
         $data = json_decode(file_get_contents("php://input"), true);
 
         $user = $this->User_model->findByEmail($data['email']);

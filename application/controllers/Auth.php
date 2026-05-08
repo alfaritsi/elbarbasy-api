@@ -45,7 +45,7 @@ class Auth extends CI_Controller {
     }
 
     public function login() {
-        echo 'test ci/cd';
+        echo 'test ci/cd again';
         exit;
         $data = json_decode(file_get_contents("php://input"), true);
 
